@@ -38,7 +38,7 @@ http.createServer((req, res) => {
     // Check the URL of the incoming request
     if(req.url==='/'){
         res.writeHead(200, { 'Content-Type': 'text/plain' });
-        res.end('Hey, This is my first JS program\n');
+         res.end('Hey, This is my first JS program\n');
     }
     else if (req.url === '/about') {
         // Handle the /about route
@@ -53,7 +53,7 @@ http.createServer((req, res) => {
                 <h1>About AcquLeayner</h1>
                 <p><strong>Project Name:</strong> AcquLeayner</p>
                 <p><strong>Description:</strong> A digital platform to increase awareness, promote events, and function as a digital portfolio for merchandise.</p>
-                <p><strong>Version:</strong> 1.0.0</p>
+                <p><strong>Version:</strong> 1.0.1</p>
             </body>
             </html>
             `);
